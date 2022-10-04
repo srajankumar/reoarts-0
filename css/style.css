@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+body {
+  background: black;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vw;
+  overflow-wrap: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+#btn {
+  color: beige;
+  margin: 20px;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: beige;
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px;
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child1 div {
+  transition: transform 0.2s;
+}
+
+.child1 div:hover {
+  transform: scale(1.5);
+}
+
+.child2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child2 div {
+  transition: transform 0.2s;
+}
+
+.child2 div:hover {
+  transform: scale(1.5);
+}
+
+.child3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child3 div {
+  transition: transform 0.2s;
+}
+
+.child3 div:hover {
+  transform: scale(1.5);
+}
+
+.child4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child4 div {
+  transition: transform 0.2s;
+}
+
+.child4 div:hover {
+  transform: scale(1.5);
+}
+
+.child5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child5 div {
+  transition: transform 0.2s;
+}
+
+.child5 div:hover {
+  transform: scale(1.5);
+}
+
+img {
+  width: fit-content;
+  height: 32rem;
+  margin: 25px;
+}
+
+@media (max-width: 1000px) {
+  .h1 {
+    font-size: 100px;
+  }
+
+  .btn {
+    font-size: 65px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+  }
+}
