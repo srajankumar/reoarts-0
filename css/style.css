@@ -127,6 +127,22 @@ body {
   transform: scale(1.5);
 }
 
+.child6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.child6 div {
+  transition: transform 0.2s;
+}
+
+.child6 div:hover {
+  transform: scale(1.5);
+}
+
 img {
   width: fit-content;
   height: 32rem;
@@ -142,5 +158,37 @@ img {
     font-size: 65px;
     margin-top: 130px;
     margin-bottom: 100px;
+  }
+
+  .img1 {
+    height: 422px;
+  }
+
+  .img2 {
+    height: 360px;
+  }
+
+  .img3 {
+    height: 360px;
+  }
+
+  .img4 {
+    height: 700px;
+  }
+
+  .img0 {
+    height: 0px;
+  }
+
+  .img5 {
+    height: 580px;
+  }
+
+  .img6 {
+    height: 368px;
+  }
+
+  .img7 {
+    height: 570px;
   }
 }
