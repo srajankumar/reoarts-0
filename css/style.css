@@ -149,6 +149,14 @@ img {
   margin: 25px;
 }
 
+.img1 {
+  height: 30rem;
+}
+
+.img8 {
+  height: 30rem;
+}
+
 @media (max-width: 1000px) {
   .h1 {
     font-size: 100px;
@@ -189,6 +197,10 @@ img {
   }
 
   .img7 {
+    height: 570px;
+  }
+
+  .img8 {
     height: 570px;
   }
 }
