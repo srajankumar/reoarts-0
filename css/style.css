@@ -19,8 +19,8 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 35px;
-  margin-top: 120px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #btn {
@@ -53,6 +53,17 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+.i6 {
+  height: 30rem;
+}
+
+.i5 {
+  height: 30rem;
+}
+
+.i4 {
+  height: 30rem;
 }
 
 .child1 div {
@@ -149,58 +160,35 @@ img {
   margin: 25px;
 }
 
-.img1 {
-  height: 30rem;
-}
-
-.img8 {
-  height: 30rem;
-}
-
 @media (max-width: 1000px) {
-  .h1 {
-    font-size: 100px;
+  img {
+    width: fit-content;
+    height: 30rem;
+  }
+
+  .i2 {
+    height: 25rem;
+  }
+
+  .i4 {
+    height: 18rem;
+  }
+
+  .i13,
+  .i14,
+  .i15 {
+    height: 40rem;
+  }
+
+  .i16 {
+    height: 35rem;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   .btn {
-    font-size: 65px;
-    margin-top: 130px;
-    margin-bottom: 100px;
-  }
-
-  .img1 {
-    height: 422px;
-  }
-
-  .img2 {
-    height: 360px;
-  }
-
-  .img3 {
-    height: 360px;
-  }
-
-  .img4 {
-    height: 700px;
-  }
-
-  .img0 {
-    height: 0px;
-  }
-
-  .img5 {
-    height: 580px;
-  }
-
-  .img6 {
-    height: 368px;
-  }
-
-  .img7 {
-    height: 570px;
-  }
-
-  .img8 {
-    height: 570px;
+    margin-bottom: 90px;
   }
 }
