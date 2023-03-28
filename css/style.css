@@ -71,7 +71,7 @@ body {
 }
 
 .child1 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .child2 {
@@ -87,7 +87,7 @@ body {
 }
 
 .child2 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .child3 {
@@ -103,7 +103,7 @@ body {
 }
 
 .child3 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .child4 {
@@ -119,7 +119,7 @@ body {
 }
 
 .child4 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .child5 {
@@ -135,7 +135,7 @@ body {
 }
 
 .child5 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .child6 {
@@ -151,7 +151,7 @@ body {
 }
 
 .child6 div:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 img {
